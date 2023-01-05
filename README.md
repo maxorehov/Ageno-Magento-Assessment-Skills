@@ -1,2 +1,2 @@
 # Ageno-Magento-Assessment-Skills
-Simple module
+This simple module adding the information about shipping method on product page
