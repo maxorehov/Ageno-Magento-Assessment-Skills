@@ -1,0 +1,14 @@
+<?php
+/**
+ * @var $block \Magento\Framework\View\Element\Template
+ * @var $viewModel \Ageno\Delivery\Block\Delivery
+ */
+$viewModel = $block->getViewModel();
+$deliveryConfig = $viewModel->getDeliveryConfig();
+
+?>
+
+
+
+<p class="courier-delivery"><?= $deliveryConfig['title'] . ' ' . $deliveryConfig['price'] . $viewModel->getCurrentCurrencySymbol() ?></p>
+
